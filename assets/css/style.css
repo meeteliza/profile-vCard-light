@@ -488,7 +488,7 @@ main {
 .navbar-link:focus { color: var(--light-gray-70); }
 
 .navbar-link.active { color: hsl(218, 79%, 48%); }
-
+.navbar-link.active1 a { color:black; }
 
 
 
