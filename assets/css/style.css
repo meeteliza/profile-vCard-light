@@ -131,11 +131,15 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, ion-icon, button, a, time, span { display: block; }
+img, ion-icon, button, time, span { display: block; }
 /* i deleted a here */
 
 p a {
   color: var(--highlight)
+}
+
+li a {
+  display: block;
 }
 
 
