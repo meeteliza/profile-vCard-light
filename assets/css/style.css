@@ -35,8 +35,8 @@
   ), hsl(0, 0%, 100%);  /*box-bg*/
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(1, 100%, 71%) 0%, 
-    hsla(226, 100%, 69%, 0) 50%
+    hsl(218, 87%, 47%) 0%, 
+    hsla(218, 87%, 47%) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
@@ -98,11 +98,11 @@
    * shadow
    */
   
-  --shadow-1: 0 1px 1px hsla(0, 0%, 0%, 0.15);
-  --shadow-2: 0 1px 1px hsla(0, 0%, 0%, 0.15);
-  --shadow-3: 0 1px 1px hsla(0, 0%, 0%, 0.15);
-  --shadow-4: 0 1px 1px hsla(0, 0%, 0%, 0.15);
-  --shadow-5: 0 1px 1px hsla(0, 0%, 0%, 0.15);
+  --shadow-1: 0 0 0 hsla(0, 0%, 0%, 0.15);
+  --shadow-2: 0 0 0 hsla(0, 0%, 0%, 0.15);
+  --shadow-3: 0 0 0 hsla(0, 0%, 0%, 0.15);
+  --shadow-4: 0 0 0 hsla(0, 0%, 0%, 0.15);
+  --shadow-5: 0 0 0 hsla(0, 0%, 0%, 0.15);
 
   /**
    * transition
@@ -131,7 +131,13 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, ion-icon, a, button, time, span { display: block; }
+img, ion-icon, button, time, span { display: block; }
+/* i deleted a here */
+
+a {
+  color: var(--highlight)
+}
+
 
 button {
   font: inherit;
@@ -580,6 +586,17 @@ main {
   scroll-snap-type: inline mandatory;
 }
 
+.testimonials-list1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  margin: 0 -15px;
+  padding: 25px 15px;
+  padding-bottom: 35px;
+
+}
+
+
 .testimonials-item {
   min-width: 100%;
   scroll-snap-align: center;
@@ -822,7 +839,7 @@ main {
   width: 6px;
   background: var(--text-gradient-yellow);
   border-radius: 50%;
-  box-shadow: 0 0 0 4px var(--jet);
+  box-shadow: 0 0 0 0 var(--jet);
 }
 
 .timeline-text {
@@ -1419,6 +1436,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding-bottom: 35px;
   }
 
+  .testimonials-list1 {
+    gap: 50px;
+    margin: 0 -30px;
+    padding: 30px;
+    padding-bottom: 35px;
+  }
+
   .content-card {
     padding: 30px;
     padding-top: 25px;
@@ -1662,9 +1686,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     * shadow
     */
 
-    --shadow-1: 0 2px 2px hsla(0, 0%, 0%, 0.125);
-    --shadow-2: 0 1px 1px hsla(0, 0%, 0%, 0.125);
-    --shadow-3: 0 1px 2px hsla(0, 0%, 0%, 0.125);
+    --shadow-1: 0 0 0 hsla(0, 0%, 0%, 0.125);
+    --shadow-2: 0 0 0 hsla(0, 0%, 0%, 0.125);
+    --shadow-3: 0 0 0 hsla(0, 0%, 0%, 0.125);
 
   }
 
@@ -1779,8 +1803,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     border: 5px solid var(--smoky-black);
     background: hsla(0, 0%, 100%, 0.1);
     border-radius: 20px;
-    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
-                inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+    box-shadow: inset 0 0 0 hsla(0, 0%, 100%, 0.11),
+                inset 0 0 0 hsla(0, 0%, 100%, 0.11);
   }
 
   body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
