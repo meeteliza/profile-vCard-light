@@ -142,6 +142,10 @@ li a {
   display: block;
 }
 
+a {
+  cursor: pointer;
+}
+
 
 button {
   font: inherit;
@@ -150,6 +154,7 @@ button {
   text-align: left;
   cursor: pointer;
 }
+
 
 input, textarea {
   display: block;
