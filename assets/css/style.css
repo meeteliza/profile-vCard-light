@@ -138,10 +138,6 @@ p a {
   color: var(--highlight)
 }
 
-li a {
-  display: block;
-}
-
 a {
   cursor: pointer;
 }
@@ -828,6 +824,11 @@ main {
   color: rgb(0, 0, 0);
   background-color: rgb(227,231,235);
   border-radius: 2px;
+}
+
+.transparent {
+  opacity: 0;
+  color: white;
 }
 
 .timeline-list span {
