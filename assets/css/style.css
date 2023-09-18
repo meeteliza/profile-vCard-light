@@ -1272,7 +1272,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
-
+.social-link {
+  padding-bottom: 50px;
+}
 
 
 
@@ -1292,10 +1294,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(80% - 10px); }
 
-  .social-list {
-    padding-bottom: 3px;
-  }
-
+  
   /**
    * #PORTFOLIO, BLOG 
    */
@@ -1334,8 +1333,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     --fs-8: 12px;
 
   }
-
-
 
   /**
    * #REUSED STYLE
@@ -1617,7 +1614,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar, article { width: 700px; }
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
-
 
 
   /**
