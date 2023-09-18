@@ -138,6 +138,15 @@ p a {
   color: var(--highlight)
 }
 
+li a {
+  display: block;
+}
+
+.trans {
+  display: inline;
+}
+
+
 a {
   cursor: pointer;
 }
@@ -820,6 +829,7 @@ main {
 }
 
 .degree {
+  display: inline;
   width: fit-content;
   color: rgb(0, 0, 0);
   background-color: rgb(227,231,235);
