@@ -66,6 +66,7 @@
   --orange-yellow-crayola: hsl(0, 0%, 0%);   /* show contacts */ /* year */
   --vegas-gold: hsl(0, 0%, 0%); /* year */
   --light-gray: hsl(0, 4%, 11%);     /*aboutme subtext*/
+  --light-gray-1: rgb(227,231,235);
   --light-gray-70: hsl(0, 57%, 47%);    /*potfo-email*/  
   --light-gray-71: hsl(180, 2%, 10%);    /*potfo-email title*/  
   --bittersweet-shimmer: hsl(0, 0%, 100%);
@@ -723,7 +724,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--white-2);
+  color: rgb(227,231,235);
   font-size: 18px;
   opacity: 0.7;
 }
@@ -981,7 +982,7 @@ main {
   border-radius: 8px;
 }
 
-.select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
+.select-item button:hover { --eerie-black-2: rgb(227,231,235); }
 
 .project-list {
   display: grid;
@@ -1611,8 +1612,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar, article { width: 700px; }
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
-
-
 
   /**
    * SIDEBAR
