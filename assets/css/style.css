@@ -142,6 +142,10 @@ li a {
   display: block;
 }
 
+.ai-cv {
+  display: block;
+}
+
 .trans {
   display: inline;
 }
