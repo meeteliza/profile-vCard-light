@@ -1078,9 +1078,8 @@ main {
   font-weight: var(--fw-300);
 }
 
-.loading {
-  background:transparent url(gears-gif-preloader.gif)) center center no-repeat;
-}
+.loader {
+  background:transparent url('https://zhangwei.fit/gears-gif-preloader.gif') center center no-repeat;
 }
 
 
