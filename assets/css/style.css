@@ -35,8 +35,8 @@
   ), hsl(0, 0%, 100%);  /*box-bg*/
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(218, 87%, 47%) 0%, 
-    hsla(218, 87%, 47%) 50%
+    rgb(87, 6, 140) 0%, 
+    rgb(987, 6, 140) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
@@ -70,7 +70,7 @@
   --light-gray-70: hsl(0, 57%, 47%);    /*potfo-email*/  
   --light-gray-71: hsl(180, 2%, 10%);    /*potfo-email title*/  
   --bittersweet-shimmer: hsl(0, 0%, 100%);
-  --highlight: hsl(218, 87%, 47%);
+  --highlight: rgb(87, 6, 140);
 
   /**
    * typography
@@ -407,7 +407,7 @@ main {
 }
 
 .info_more-btn:hover,
-.info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
+.info_more-btn:focus { background: rgb(87, 6, 140); color: rgb(87, 6, 140) }
 
 .info_more-btn:hover::before,
 .info_more-btn:focus::before { background: var(--bg-gradient-yellow-2); }
@@ -511,9 +511,9 @@ main {
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); }
+.navbar-link:focus { color:rgb(20, 147, 164); }
 
-.navbar-link.active { color: hsl(218, 79%, 48%); }
+.navbar-link.active { color: rgb(87, 6, 140); }
 .navbar-link.active1 a { color:black; }
 
 
@@ -528,7 +528,7 @@ main {
 .about-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-3);
+  font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
