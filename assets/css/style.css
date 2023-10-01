@@ -1077,7 +1077,7 @@ code blocks
 }
 
 .project-category {
-  color: var(--light-gray-71);
+  color: rgb(20, 147, 164);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
