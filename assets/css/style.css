@@ -132,8 +132,8 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, ion-icon, button, time, span { display: block; }
-/* i deleted a here */
+img, ion-icon, button, time { display: block; }
+/* i deleted a & span here */
 
 p a {
   color: var(--highlight)
@@ -587,11 +587,6 @@ main {
 code blocks
 */
 
-.code-container {
-  display: block;
-  height: 60%;
-  align-items: first baseline;
-}
 
 /**
  * #testimonials 
