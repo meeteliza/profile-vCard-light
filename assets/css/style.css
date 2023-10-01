@@ -583,6 +583,15 @@ main {
   line-height: 1.6;
 }
 
+/* 
+code blocks
+*/
+
+.code-container {
+  display: block;
+  height: 60%;
+  align-items: first baseline;
+}
 
 /**
  * #testimonials 
