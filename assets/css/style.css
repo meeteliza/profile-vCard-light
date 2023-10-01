@@ -1093,7 +1093,7 @@ code blocks
   align-items: flex-start;
   gap: 15px;
   margin: 0 -25px;
-  padding: 25px;
+  padding: 10px;
   padding-bottom: 0px;
   flex-wrap: wrap;
 }
