@@ -614,7 +614,7 @@ code blocks
 
 .testimonials { margin-bottom: 30px; }
 
-.testimonials-title { margin-bottom: 10px; }
+.testimonials-title { margin-bottom: 20px; }
 
 .testimonials-list {
   display: flex;
@@ -1552,7 +1552,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .testimonials-item-title1 {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 0;
   }
 
