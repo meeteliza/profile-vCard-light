@@ -157,3 +157,15 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+
+function redirectToHomePage() {
+    // Redirect to the home page
+    window.location.href = '/index.html';
+    page[0].classList.remove("active");
+    navigationLinks[0].classList.remove('active');
+    page[2].classList.add("active");
+    navigationLinks[2].classList.add("active");
+    window.scrollTo(0,0)
+    }
