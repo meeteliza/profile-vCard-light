@@ -324,7 +324,7 @@ article.active {
   position: relative;
   background: var(--border-gradient-onyx);
   padding: 15px;
-  padding-top: 45px;
+  padding-top: 15px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   cursor: pointer;
@@ -1512,7 +1512,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* testimonials */
 
   .testimonials-title { margin-bottom: 25px; }
-  .testimonials-title1 { margin-bottom: 0px; }
+  .testimonials-title1 { margin-bottom: 20px; }
 
   .testimonials-list {
     gap: 30px;
