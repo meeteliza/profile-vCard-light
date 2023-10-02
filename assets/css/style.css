@@ -631,9 +631,11 @@ code blocks
 }
 
 .testimonials-list1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
   margin: 0 -15px;
   padding: 25px 15px;
   padding-bottom: 35px;
@@ -1520,8 +1522,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .testimonials-list1 {
-    display: grid;
-    grid-template-columns: 1fr;
     gap: 20px;
     margin: 0 -30px;
     padding: 30px;
@@ -1853,10 +1853,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(80% - 38px); }
 
-  .testimonials-list1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
 
   /**
    * PORTFOLIO
