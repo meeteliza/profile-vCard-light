@@ -1100,7 +1100,7 @@ code blocks
 }
 
 .project-category {
-  color: rgb(20, 147, 164);
+  color: rgb(107, 109, 109);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
@@ -1900,7 +1900,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   body::-webkit-scrollbar-button { height: 60px; }
 
-
+  .testimonials-item { min-width: calc(50% - 23px); }
 
   /**
    * REUSED STYLE
