@@ -800,8 +800,8 @@ code blocks
   align-items: flex-start;
   gap: 15px;
   margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
+  padding: 10px;
+  padding-bottom: 20px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
@@ -810,7 +810,7 @@ code blocks
 }
 
 .clients-item {
-  min-width: 80%;
+  min-width: 90%;
   scroll-snap-align: start;
 }
 
@@ -1592,9 +1592,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* clients */
 
   .clients-list {
-    gap: 50px;
+    gap: 30px;
     margin: 0 -30px;
-    padding: 45px;
+    padding: 20px;
     scroll-padding-inline: 45px;
   }
 
