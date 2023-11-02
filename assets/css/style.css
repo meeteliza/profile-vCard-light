@@ -326,7 +326,7 @@ article.active {
   padding-top: 15px;
   border-radius: 14px;
   cursor: pointer;
-  border: 1px solid var(--jet);
+  /* border: 0.01px solid gray; */
 }
 
 .content-card1::before {
@@ -336,6 +336,10 @@ article.active {
   background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
+}
+
+.content-card1:hover {
+  border: 0.01px solid gray;
 }
 
 
@@ -630,17 +634,15 @@ code blocks
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 25px;
-  margin: 0 -15px;
   padding: 3px 20px;
   padding-bottom: 10px;
-
 }
 
 
 .testimonials-item {
   min-width: 100%;
   scroll-snap-align: center;
+  margin-bottom: 10px;
 }
 
 .testimonials-avatar-box {
@@ -665,7 +667,7 @@ code blocks
   font-weight: var(--fw-300);
   line-height: 1.6;
   display: -webkit-box;
-  line-clamp: 2;
+  line-clamp: 3;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -736,7 +738,7 @@ code blocks
   background: var(--eerie-black-2);
   position: relative;
   padding: 15px;
-  margin: 30px 30px;
+  margin: 30px px;
   /* 15, 12 */
   border: 1px solid var(--jet);
   border-radius: 14px;
@@ -780,7 +782,7 @@ code blocks
 
 .modal-img-wrapper > img { display: none; }
 
-.modal-title { margin-bottom: 4px; }
+.modal-title { margin-bottom: 10px; }
 
 .modal-content time {
   font-size: var(--fs-6);
@@ -794,6 +796,8 @@ code blocks
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 
@@ -1034,12 +1038,6 @@ code blocks
   margin-bottom: 10px;
 }
 
-.article-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
-  margin-bottom: 30px;
-}
 
 .project-item { display: none; }
 
@@ -1545,7 +1543,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .testimonials-list1 {
-    gap: 30px;
     margin: 0 -30px;
     padding: 3px 25px;
     padding-bottom: 10px;
@@ -1557,8 +1554,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .content-card1 {
-    padding: 20px;
-    padding-top: 20px;
+    padding: 9px;
+    padding-top: 14px;
   }
 
   .testimonials-avatar-box {
@@ -1871,6 +1868,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* testimonials */
 
   .testimonials-item { min-width: calc(50% - 15px); }
+  .testimonials-modal {max-width: 1000px;}
 
   /* clients */
 
