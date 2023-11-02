@@ -302,13 +302,13 @@ article.active {
 
 .content-card {
   position: relative;
-  background: var(--border-gradient-onyx);
   padding: 15px;
-  padding-top: 45px;
+  padding-top: 15px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   cursor: pointer;
   z-index: 1;
+  border: 0.01px solid gray
 }
 
 .content-card::before {
@@ -574,7 +574,7 @@ main {
 .service-item {
   position: relative;
   padding: 20px;
-  border: 1px solid var(--jet);
+  border: 0.1px solid grey;
   border-radius: 14px;
 }
 
