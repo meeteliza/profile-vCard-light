@@ -267,11 +267,6 @@ article.active {
   font-weight: var(--fw-500);
 }
 
-.h6 {
-  font-size: var(--fs-7);
-  font-weight: var(--fw--300);
-}
-
 .article-title {
   position: relative;
   padding-bottom: 7px;
@@ -670,6 +665,18 @@ code blocks
   font-weight: var(--fw-300);
   line-height: 1.6;
   display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.wrap-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  display: -webkit-box;
   line-clamp: 4;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -785,6 +792,12 @@ code blocks
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+}
+
+.article-text {
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
 }
 
 
@@ -1022,6 +1035,13 @@ code blocks
   grid-template-columns: 1fr;
   gap: 30px;
   margin-bottom: 10px;
+}
+
+.article-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
 }
 
 .project-item { display: none; }
