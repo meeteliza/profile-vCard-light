@@ -495,19 +495,6 @@ main {
 
 .social-item .social-link:hover { color: var(--light-gray); }
 
-.hover:hover::before {
-  content: attr('CV');
-  position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    white-space: nowrap;
-    z-index: 1;
-}
 
 
 
@@ -1372,6 +1359,14 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
+@media (min-width: 200px) {
+  .avatar-box {
+    border-radius: 10px;
+  }
+}
+
+
+
 @media (min-width: 450px) {
 
   /**
@@ -1472,7 +1467,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  .avatar-box { border-radius: 16px; }
 
   .avatar-box img { width: 120px; }
 
