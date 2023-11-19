@@ -531,7 +531,7 @@ main {
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color:rgb(20, 147, 164); }
+.navbar-link:focus { color:rgb(87, 6, 140); }
 
 .navbar-link.active { color: rgb(87, 6, 140); }
 .navbar-link.active1 a { color:black; }
