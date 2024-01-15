@@ -1,9 +1,9 @@
 # vCard - White Version
-[demo](https://zhangwei.fit)
+[demo website](https://zhangwei.fit)
 
 ## Main features:
 
-1. post pages: they are now clickable. Depending on the type of your content, you can choose the words-only post, pictures post and post with ppt/pdf embeded.
+1. post pages: they are now clickable. Depending on the type of your content, you can choose the words-only post, pictures post and post with ppt/pdf embedments.
 
 2. new theme: as the title suggests.
 
@@ -13,11 +13,10 @@
 
 5. picture preloader
 
+
 ## Acknowledgement 
 Original Black Version: [vcar-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio), cr @codewithsadee (Thank you for creating this a beautiful template!!)
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
 ## Usage
 
