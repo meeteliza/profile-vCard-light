@@ -9,7 +9,7 @@ Tailored for academic purposes, see [demo website](https://zhangwei.fit)
 
 3. resume page: icon, highlight
 
-4. words-only post: this is adepted from the original testimonials feature. You can now use it to present your articles.
+4. words-only post: this is adapted from the original testimonials feature. You can now use it to present your articles.
 
 5. picture preloader
 
