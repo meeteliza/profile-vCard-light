@@ -1,5 +1,5 @@
 # vCard - White Version
-[demo website](https://zhangwei.fit)
+Tailored for academic purposes, see [demo website](https://zhangwei.fit)
 
 ## Main features:
 
@@ -15,12 +15,11 @@
 
 
 ## Acknowledgement 
-Original Black Version: [vcar-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio), cr @codewithsadee (Thank you for creating this a beautiful template!!)
+Original Black Version: [vcar-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio), cr @codewithsadee (Thank you for creating this beautiful template!!)
 
 
 ## Usage
-
 Download this repository and you are good to go.
-Makesure to replace my assets with your own assets.
+Make sure to replace my assets with your own assets.
 
 
