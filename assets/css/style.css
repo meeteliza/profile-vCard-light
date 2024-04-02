@@ -351,6 +351,22 @@ article.active {
   background-color: rgb(232, 229, 234);
 }
 
+.table {
+  display: table;
+  width: 100%;
+}
+.row {
+  display: table-row;
+  bottom: 10px;
+}
+.cell {
+  font-weight: 100;
+  display: table-cell;
+}
+.cell1 {
+  text-wrap: nowrap;
+
+}
 
 
 /*-----------------------------------*\
