@@ -342,7 +342,14 @@ article.active {
   border: 0.01px solid gray;
 }
 
-
+.wechat {
+  color:black;
+  bottom: 10px;
+}
+.wechat:hover {
+  color: rgb(87,6,140);
+  background-color: rgb(232, 229, 234);
+}
 
 
 
